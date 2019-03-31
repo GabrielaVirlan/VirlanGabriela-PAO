@@ -1,0 +1,34 @@
+----------------------------------------------------------------------------------------
+
+Cabinet Medical
+
+----------------------------------------------------------------------------------------
+
+Obiecte:
+(1)Pacient
+(2)Cadru medical -->> (3)Medic
+	         -->> (4)Asistent
+(5)Reteta
+(6)Diagnostic
+(7)Rezervare(programare medicala)
+(8)Utilizabil -->>  (9)Injectie
+	      -->> (10)SerFiziologic
+(11)ServiciiCabinet
+
+----------------------------------------------------------------------------------------
+
+Actiuni/Interogari:
+       --Actiuni--		   	                --Obiect Folosite--
+ 1.Introducere pacient nou			-Pacient
+ 2.Introducere cadru medical nou		-Cadru medical
+ 3.Adaugare programare medicala			-Rezervare,Pacient,Medic  
+ 4.Aflare numar programari lunare		-Rezervare
+ 5.Anulare programare medicala			-Rezevare
+ 6.Setare diagnostic pacient			-Diagnostic,Pacient
+ 7.Modificare utilizabile			-Utilizabile,Injectie,SerFiziologic
+ 8.Actualizare descriere medic			-Medic
+ 9.Aflare fruntas dintre asistenti		-Asistenti
+10.Aflare medici cu varsta>60 ani		-Medici
+
+----------------------------------------------------------------------------------------
+
